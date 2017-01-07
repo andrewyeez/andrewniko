@@ -1,0 +1,118 @@
+/* 
+    Created on : Jan 6, 2017, 7:49:33 PM
+    Author     : AndrewPro
+*/
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+      .center{
+          width: 90% !important;
+          height: 90% !important;
+          max-width: none !important;
+      }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+body{
+    padding: 20px;
+    background: linear-gradient(
+        rgba(145, 186, 206, 0.25), 
+        rgba(145, 186, 206, 0.25)),
+        url('/public/img/beach.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+.main{
+
+}
+.row {
+
+}
+.center{
+    background: rgba(19, 27, 39, 0.6);
+    color: white;
+    height: 800px;
+    width: 75%;
+    max-width: 500px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 5px;
+
+}
+.title {
+    font-size: 50px;
+    margin: 0px 0px 20px 0px;
+}
+.sub-title {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 40px;
+}
+.sub-title-list{
+    padding: 12px 50px;
+}
+.sp-list {
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: rgba(42, 158, 162, 0.8);
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+.title-box {
+    margin: 15px 35px 35px 35px;
+    padding: 0px 18px;
+}
+.title-box-img {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+.title-box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.title-box-info{
+    margin: 0px 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.title-box-info .name{
+    font-size: 40px;
+}
+.title-box-info .text{
+    font-size: 15px;
+}
