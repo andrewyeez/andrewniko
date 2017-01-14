@@ -3,3 +3,14 @@
 Homestead.yaml
 Homestead.json
 .env
+/app
+/config
+/database
+/public
+server.php
+phpunit.xml
+phpspec.yml
+error_log
+artisan
+resources/assets
+resources/lang
